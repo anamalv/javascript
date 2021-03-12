@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array occurances</title>
+</head>
+
+<body>
+
+
+    <h1>Returns a number of all occurences of the specified item in an array</h1>
+    <script>
+
+function findEmail(arr, item) {
+    var result = 0;
+    for (let index = 0; index < arr.length; index++) {
+        if (item == arr[index]) {
+            result++;
+        }
+
+    }
+    console.log(result);
+}
+var arr = [5, 3, 9, 5, 0, 1, 5];
+findEmail(arr, 5)
+    </script>
+</body>
+
+</html>
